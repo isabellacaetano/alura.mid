@@ -6,8 +6,9 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0;
 
 
-while(contador < 9){
-listaDeTeclas[contador].onclick = function (){
-    tocaSom('som_tecla_cap');
-}
+while(contado < 9){
+
+    const instrumento = listaDeTeclas[contador]
+    
+    const tecla = listaDeTeclas [contador];
 }
